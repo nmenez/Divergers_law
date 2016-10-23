@@ -8,3 +8,11 @@ In political science, Duverger's law holds that plurality-rule elections (such a
  disagreement while 1 represents complete agreement.  How close a party's position to a voter's views is represented by the euclidean distance. 
  
  Voters have a change_mind parameter that allows the voter to change their mind on an issue from election to election. 
+
+
+The simulation makes a few assumptions at this time that may or may not be reasonable in the real world
+1) voters always vote for the party closest to their views. The book "what's the matter with kansas" argues this is not always true.
+2) party's political positions are unvarying through time (obviously false)
+3) why would a party drop out if they get less then say 10 seats?
+4) parties don't form coalitions
+5) districts aren't gerrymandered (obviously false)
